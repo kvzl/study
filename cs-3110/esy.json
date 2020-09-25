@@ -1,10 +1,10 @@
 {
   "dependencies": {
     "@opam/dune": "*",
-    "@opam/merlin": "^3.0.3",
+    "@opam/merlin": "*",
     "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam",
-    "@opam/ocamlformat": "0.14.3",
-    "@opam/utop": "2.5.0",
-    "ocaml": "4.8.x"
+    "@opam/ocamlformat": "*",
+    "@opam/utop": "*",
+    "ocaml": "4.11.x"
   }
 }

@@ -1,3 +1,2 @@
 (library
- (name lec02)
- (public_name cs-3110))
+ (name lec02))
