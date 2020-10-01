@@ -8,4 +8,4 @@ let g x y = if y then x else x
 let h x y z = if x then y else z
 
 (* val i = bool -> 'a -> 'b -> 'a  *)
-let i x y z = if x then y else y
+let i x y _ = if x then y else y

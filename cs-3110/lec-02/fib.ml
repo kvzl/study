@@ -4,7 +4,7 @@ let rec fib = function
   | n -> fib (n - 1) + fib (n - 2)
 ;;
 
-let rec fib' n = if n > 2 then fib (n - 1) + fib (n - 2) else 1
+let rec fib' n = if n > 2 then fib' (n - 1) + fib' (n - 2) else 1
 
 let fac i =
   let rec loop n i' = if i' < 1 then n else loop (i' * n) (i' - 1) in
